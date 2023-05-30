@@ -5,22 +5,29 @@
     <meta charset="utf-8">
 	<!--Supprimer meta keywords-->
     
-	<!--COmpléter la métadescription-->
+	<!--Compléter la métadescription-->
     <meta name="description" content="L'agence de de webdesign lyonnaise qui répond à tous vos projets">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Bootstrap style 3.3.5-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
-    <!--UTILISER LES CDN AVEC DEFER-->
-	
-	<script src="https://code.jquery.com/jquery-2.1.0.min.js" integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=" crossorigin="anonymous" defer></script>
+	<!--jQuery 2.1.0-->
+	<script defer src="https://code.jquery.com/jquery-2.1.0.min.js" integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=" crossorigin="anonymous" defer></script>
+	<!--Bootstrap script 3.3.5-->
+	<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!--
 	<script src="./js/bootstrap.js" defer></script>
-	<script src="./js/blocs.js" defer></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
+	-->
+	<script defer src="./js/blocs.js" ></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+
+
 
 
 	<!--CHANGER LE TITLE-->
@@ -28,7 +35,15 @@
 
     
 <!-- Analytics -->
- 
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YNWZ7LK52F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YNWZ7LK52F');
+</script>
 <!-- Analytics END -->
     
 </head>
@@ -44,7 +59,6 @@
 			<div class="navbar-header">
 				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -90,7 +104,8 @@
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<!--CHANGER L'IMG EN TEXTE <H2> SUREMENT-->
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+				<h2>L'agence La Panthère est une agence de web design qui aide
+					les entreprises à devenir attractives et visibles sur Internet.</h2>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
